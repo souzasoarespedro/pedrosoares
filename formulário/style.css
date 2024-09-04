@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(227, 227, 224, 0.705);
+    min-height: 100vh;
+}
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+textarea{
+    height: 120px;
+}
