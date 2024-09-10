@@ -1,0 +1,145 @@
+/* Reset básico de margens e paddings */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    
+
+}
+header{
+    background-color:   #000000;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+   
+   
+}
+
+
+header nav{
+margin-left: 100px;
+width: 500px;
+justify-content: space-between;
+display: flex;
+
+}
+header nav a{
+    text-decoration: none;
+    color: #fff;
+}
+header img{
+    margin-left: 100px;
+}
+@font-face {
+    font-family: "friende";
+    src: url(imagens/font/Howdy\ Friend.otf);
+}
+
+.menu {
+    color: white;
+    background-color:       #000000;;
+    font-size: 40px;
+  font-family: "friende";
+
+  
+}  
+
+
+
+/* Estilos do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contato h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #6c94be;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #6c94be;
+}
+
+/* Estilos do rodapé */
+footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
