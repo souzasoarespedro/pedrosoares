@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; 
+    color: #4b3832; 
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff8dc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  span{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h1 {
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  h2{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .menu-section {
+    margin-bottom: 30px;
+  }
+  
+  .menu-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #deb887; 
+    padding-bottom: 5px;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #deb887;
+    padding: 10px 0;
+  }
+  
+  .menu-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 15px;
+  }
+  
+  .menu-item span {
+    flex-grow: 1; 
+  }
+  
+  .price {
+    text-align: right;
+    width: 50%;
+    color: #8b4513; 
+    font-weight: bold;
+  }
+  
